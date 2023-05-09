@@ -1,0 +1,61 @@
+#header
+{
+    margin:0px;
+}
+
+#header-container
+{
+    background-color: var(--primary-accent-color);
+
+    margin: 0px;
+
+}
+
+#header-top
+{
+    background-color: var(--seconday-accent-color);
+
+    min-height: 20px;
+}
+
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+}
+
+
+.nav-button
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-button-color);
+
+
+    -webkit-text-fill-color: var(--primary-font-color);
+    text-decoration: none;
+
+    margin: 5px;
+
+    min-width: 3em;
+    min-height: 3em;
+}
+.nav-button:hover
+{
+    background-color: var(--button-hover-color);
+    -webkit-text-fill-color: var(--primary-accent-color);
+}
+.nav-button:active
+{
+    background-color: var(--button-pressed-color);
+}
+
+
+

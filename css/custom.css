@@ -1,0 +1,26 @@
+
+.content-item
+{
+    /* This is the design for the element */
+
+    background-color: var(--secondary-site-color);
+
+
+    border-radius: 10px;
+}
+
+.content-title
+{
+    /* This is the title for the content */
+    background-color: var(--primary-accent-color);
+    -webkit-text-fill-color: white;
+
+    font-size: 18px;
+}
+
+.content-content
+{
+    /* This is the content for the item */
+    font-size: 14px;
+
+}
